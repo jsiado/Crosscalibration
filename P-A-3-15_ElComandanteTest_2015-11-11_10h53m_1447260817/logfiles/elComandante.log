@@ -1,0 +1,69 @@
+#
+#--------LOG from Wed 11 Nov 2015 at 10h:53m:37s ---------
+#
+WARNING: cannot upload data since no all needed options are defined: section 'Transfer', options: 'host,'port','user','destination'
+Subserver is running.
+
+Setting up agente psiAgente ...
+	- Testboard 0 at address DTB_WRE7QJ with Module P-A-3-15 reading configuration from TBM08Cdigv21respin 
+Setting up agente highVoltageAgente ...
+Setting up agente watchDogAgente ...
+Setting up agente analysisAgente ...
+Setting up agente coolingBoxAgente ...
+
+Checking whether clients are runnning ...
+using default xterm config parameters
+Starting psiClient ...
+highVoltageAgente: Starting keithleyClient..."xterm  -T 'HighVoltage' +sb -geometry 80x25+1200+1300 -fs 10 -fa 'Mono' -e ../..//elComandante/keithleyClient//keithleyClient.py -d /dev/ttyUSB1 -dir ../..//allTestResults//logfiles/ -ts 1447260817 -iV -150.0" 
+Starting coolingBoxClient ...
+Command: 'xterm -T 'CoolingBox' +sb -geometry 120x25+1200+0 -fs 10 -fa 'Mono' -e '../..//elComandante/coolingBox//coolingBoxClient.py -d /dev/ttyUSB0  -dir ../..//allTestResults/logfiles''
+
+Checking subscriptions of the clients ...
+	/jumo is answering.
+	/psi is answering.
+	/keithley is answering.
+	/el_agente is answering.
+	/analysis is answering.
+	/jumo is answering.
+----------------
+
+The following testboards with modules were found:
+
+	- Testboard 0 at address DTB_WRE7QJ with module P-A-3-15
+
+The following tests will be executed:
+
+	- Pretest@17
+----------------
+
+Test 1/1: Pretest@17
+
+Preparing test Pretest@17 ...
+Setting up the directory: /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/TBM08Cdigv21respin
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1447260945
+Preparation took 116 seconds (1 min 56 sec)
+
+Executing test Pretest@17 ...
+
+Test took 152 seconds (2 min 32 sec)
+Cleaning up after test Pretest@17 ...
+----------------
+
+Final cleanup after all tests ...
+coolingBoxAgente: Heating up ...
+Press ENTER after taking out the modules 
+coolingBoxAgente: CoolingBox is heated up.
+----------------
+
+Finished all tests. Summary of test durations:
+    Pretest@17                        4 min 29 sec
+  --------------------------------------------------
+    total                             4 min 29 sec
+Press ENTER to terminate the clients. 
+Asking clients to quit ...
+Subsystem connection closed.
+Killing remaining children ...
+----------------
+

@@ -1,0 +1,16 @@
+#
+#--------LOG from Wed 11 Nov 2015 at 10h:53m:43s ---------
+#
+ConfigDir: "../config/"
+got command to execute /home/silpix5/elComandante/config/tests/Pretest in TB0  -- 0:Pretest
+executing psi46 /home/silpix5/elComandante/config/tests/Pretest in TB0
+>>> Aquire Testboard 0 <<<
+>>> Release Testboard 0 <<<
+:Test 000_Pretest_p17 finished in TB0
+exit
+:Test 000_Pretest_p17 finished in TB0
+:Test  finished in TB1
+:Test  finished in TB2
+:Test  finished in TB3
+waiting for client to be closed...
+done

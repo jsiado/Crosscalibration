@@ -1,0 +1,89 @@
+#
+#--------LOG from Wed 11 Nov 2015 at 11h:06m:42s ---------
+#
+WARNING: cannot upload data since no all needed options are defined: section 'Transfer', options: 'host,'port','user','destination'
+Subserver is running.
+
+Setting up agente psiAgente ...
+	- Testboard 0 at address DTB_WRE7QJ with Module P-A-3-15 reading configuration from TBM08Cdigv21respin 
+Setting up agente highVoltageAgente ...
+Setting up agente watchDogAgente ...
+Setting up agente analysisAgente ...
+Setting up agente coolingBoxAgente ...
+
+Checking whether clients are runnning ...
+using default xterm config parameters
+Starting psiClient ...
+highVoltageAgente: Starting keithleyClient..."xterm  -T 'HighVoltage' +sb -geometry 80x25+1200+1300 -fs 10 -fa 'Mono' -e ../..//elComandante/keithleyClient//keithleyClient.py -d /dev/ttyUSB1 -dir ../..//allTestResults//logfiles/ -ts 1447261602 -iV -150.0" 
+Starting coolingBoxClient ...
+Command: 'xterm -T 'CoolingBox' +sb -geometry 120x25+1200+0 -fs 10 -fa 'Mono' -e '../..//elComandante/coolingBox//coolingBoxClient.py -d /dev/ttyUSB0  -dir ../..//allTestResults/logfiles''
+
+Checking subscriptions of the clients ...
+	/jumo is answering.
+	/psi is answering.
+	/keithley is answering.
+	/el_agente is answering.
+	/analysis is answering.
+	/jumo is answering.
+----------------
+
+The following testboards with modules were found:
+
+	- Testboard 0 at address DTB_WRE7QJ with module P-A-3-15
+
+The following tests will be executed:
+
+	- FPIXTest@17
+	- IV_0@17
+----------------
+
+Test 1/2: FPIXTest@17
+
+Preparing test FPIXTest@17 ...
+Setting up the directory: /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_11h06m_1447261602//000_FPIXTest_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/TBM08Cdigv21respin
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1447261807
+Preparation took 194 seconds (3 min 14 sec)
+
+Executing test FPIXTest@17 ...
+
+Test took 4218 seconds (70 min 18 sec)
+Cleaning up after test FPIXTest@17 ...
+----------------
+
+Test 2/2: IV_0@17
+
+Preparing test IV_0@17 ...
+Setting up the directory: /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_11h06m_1447261602//001_IV_p17/
+... with Parameters from: /home/silpix5/ShareTestResults/DefaultConfig/TBM08Cdigv21respin
+psiAgente: Opening Testboard 0 ...
+coolingBoxAgente: Setting temperature to 17.0
+coolingBoxAgente: Temperature stable at 1447266028
+Preparation took 3 seconds (0 min 3 sec)
+
+Executing test IV_0@17 ...
+	--> IV-Curve FINISHED
+
+Test took 215 seconds (3 min 35 sec)
+Cleaning up after test IV_0@17 ...
+psiAgente: Closing Testboard 0 ...
+----------------
+
+Final cleanup after all tests ...
+coolingBoxAgente: Heating up ...
+Press ENTER after taking out the modules 
+coolingBoxAgente: CoolingBox is heated up.
+----------------
+
+Finished all tests. Summary of test durations:
+    FPIXTest@17                      73 min 32 sec
+    IV_0@17                           3 min 38 sec
+  --------------------------------------------------
+    total                            77 min 11 sec
+Press ENTER to terminate the clients. 
+Asking clients to quit ...
+Subsystem connection closed.
+Killing remaining children ...
+----------------
+

@@ -1,0 +1,538 @@
+[10:55:46.371] <TB0>     INFO: *** Welcome to pxar ***
+[10:55:46.371] <TB0>     INFO: *** Today: 2015/11/11
+[10:55:46.378] <TB0>     INFO: *** Version: e0f6
+[10:55:46.378] <TB0>     INFO: readRocDacs: /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C0.dat .. /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C15.dat
+[10:55:46.379] <TB0>     INFO: readTbmDacs: /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//tbmParameters_C0a.dat .. /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//tbmParameters_C0b.dat
+[10:55:46.379] <TB0>     INFO: readMaskFile: /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//defaultMaskFile.dat
+[10:55:46.379] <TB0>     INFO: readTrimFile: /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//trimParameters_C0.dat .. /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//trimParameters_C15.dat
+[10:55:46.454] <TB0>     INFO:         clk: 4
+[10:55:46.454] <TB0>     INFO:         ctr: 4
+[10:55:46.454] <TB0>     INFO:         sda: 19
+[10:55:46.454] <TB0>     INFO:         tin: 9
+[10:55:46.454] <TB0>     INFO:         level: 15
+[10:55:46.454] <TB0>     INFO:         triggerdelay: 0
+[10:55:46.454] <TB0>    QUIET: Instanciating API for pxar prod-11
+[10:55:46.454] <TB0>     INFO: Log level: DEBUG
+[10:55:46.466] <TB0>    QUIET: Connection to board DTB_WRE7QJ opened.
+[10:55:46.470] <TB0>     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    24
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.4
+USB id:      DTB_WRE7QJ
+MAC address: 40D855118018
+Hostname:    pixelDTB024
+Comment:     
+------------------------------------------------------
+[10:55:46.472] <TB0>     INFO: RPC call hashes of host and DTB match: 397073690
+[10:55:48.027] <TB0>     INFO: DUT info: 
+[10:55:48.027] <TB0>     INFO: The DUT currently contains the following objects:
+[10:55:48.027] <TB0>     INFO:  2 TBM Cores tbm08c (2 ON)
+[10:55:48.027] <TB0>     INFO: 	TBM Core alpha (0): 7 registers set
+[10:55:48.027] <TB0>     INFO: 	TBM Core beta  (1): 7 registers set
+[10:55:48.027] <TB0>     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[10:55:48.027] <TB0>     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.027] <TB0>     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.027] <TB0>     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.027] <TB0>     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB<-
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB2<-
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 222
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   plwidth: 35
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB3<-
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB4<-
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   savecaldelscan: checkbox(0)
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 100
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   cals: 1
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   caldello: 80
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   caldelhi: 200
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   caldelstep: 10
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcomplo: 70
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcomphi: 130
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompstep: 5
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   noisypixels: 10
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 255
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   cut: 0.5
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Cmd<-
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacDacScan<-
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac1: caldel
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac1lo: 0
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac1hi: 255
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac2: vthrcomp
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac2lo: 0
+[10:55:48.028] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac2hi: 255
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacScan<-
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox(1)
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   allpixels: checkbox(0)
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   unmasked: checkbox(0)
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac: vcal
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 255
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->GainPedestal<-
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   showfits: checkbox(0)
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   extended: checkbox(0)
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumphists: checkbox(0)
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcalstep: 10
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   measure: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   fit: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   save: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->HighRate<-
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trimhotpixels: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trimhotpixelthr: 200
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   runsecondshotpixels: 10
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   savetrimbits: checkbox(1)
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   maskuntrimmable: checkbox(1)
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   caldelscan: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   xpixelalive: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   xnoisemaps: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 100
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 20
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   rundaq: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 20
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 2
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   triggerdelay: 20
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->IV<-
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   port: /dev/FIXME
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestart: 0
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestop: 600
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestep: 5
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   delay: 1
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   compliance(ua): 100
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PhOptimization<-
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   safetymarginlow: 20
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   saturationvcal: 100
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   quantilesaturation: 0.98
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PixelAlive<-
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   alivetest: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   masktest: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   addressdecodingtest: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Pretest<-
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   programroc: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 100
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   settimings: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   findtiming: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   findworkingpixel: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   setvthrcompcaldel: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 250
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   deltavthrcomp: 50
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   fraccaldel: 0.5
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   savedacs: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Readback<-
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   calibratevd: button
+[10:55:48.029] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateva: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateia: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   readbackvbg: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   getcalibratedvbg: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   usecalvd: checkbox(1)
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   usecalva: checkbox(0)
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Scurves<-
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   adjustvcal: checkbox(0)
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dumpoutputfile: checkbox(0)
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dac: Vcal
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 200
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: -1
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig/step: -1
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   scurves: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Timing<-
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   targetclk: 4
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   clocksdascan: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   notokenpass: checkbox(0)
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   phasescan: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   levelscan: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   tbmphasescan: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   rocdelayscan: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   timingtest: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   saveparameters: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Trim<-
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trim: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 8
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 35
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trimbits: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Xray<-
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   source: Ag
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   phrun: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 100
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   ratescan: button
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmin: 10
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmax: 80
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   stepseconds: 5
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[10:55:48.030] <TB0>    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[10:55:48.030] <TB0>    DEBUG: <PixSetup.cc/init:L81> PixSetup init start; getCurrentRSS() = 30855168
+[10:55:48.030] <TB0>    DEBUG: <PixSetup.cc/init:L87> fPixTestParameters = 0x17821e0
+[10:55:48.030] <TB0>    DEBUG: <PixSetup.cc/init:L88>  fConfigParameters = 0x16f4720
+[10:55:48.030] <TB0>    DEBUG: <PixSetup.cc/init:L89>        fPxarMemory = 0x7f5ca1d94010
+[10:55:48.030] <TB0>    DEBUG: <PixSetup.cc/init:L90>         fPxarMemHi = 0x7f5ca7fff510
+[10:55:48.030] <TB0>    DEBUG: <PixSetup.cc/init:L106> PixSetup init done;  getCurrentRSS() = 30920704 fPxarMemory = 0x7f5ca1d94010
+[10:55:48.030] <TB0>    DEBUG: <PixTestFactory.cc/PixTestFactory:L53> PixTestFactory::PixTestFactory()
+[10:55:48.431] <TB0>     INFO: enter 'restricted' command line mode
+[10:55:48.431] <TB0>     INFO: enter test to run
+[10:55:48.431] <TB0>     INFO:   test: Pretest no parameter change
+[10:55:48.431] <TB0>     INFO:   running: pretest
+[10:55:48.437] <TB0>     INFO: ######################################################################
+[10:55:48.437] <TB0>     INFO: PixTestPretest::doTest()
+[10:55:48.437] <TB0>     INFO: ######################################################################
+[10:55:48.438] <TB0>     INFO:    ----------------------------------------------------------------------
+[10:55:48.438] <TB0>     INFO:    PixTestPretest::programROC() 
+[10:55:48.438] <TB0>     INFO:    ----------------------------------------------------------------------
+[10:56:05.475] <TB0>     INFO: PixTestPretest::programROC() done: ROCs are all programmable
+[10:56:05.475] <TB0>     INFO: IA differences per ROC:  16.9 16.9 18.5 16.9 17.7 19.3 18.5 18.5 16.9 18.5 17.7 17.7 17.7 19.3 17.7 18.5
+[10:56:05.536] <TB0>     INFO:    ----------------------------------------------------------------------
+[10:56:05.536] <TB0>     INFO:    PixTestPretest::setVana() target Ia = 24 mA/ROC
+[10:56:05.536] <TB0>     INFO:    ----------------------------------------------------------------------
+[10:56:05.639] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L272> offset current from other 15 ROCs is 66.2812 mA
+[10:56:05.740] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 0 iter 0 Vana 78 Ia 21.3187 mA
+[10:56:05.841] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter  1 Vana  94 Ia 25.3187 mA
+[10:56:05.942] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter  2 Vana  87 Ia 24.5188 mA
+[10:56:06.043] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter  3 Vana  85 Ia 23.7188 mA
+[10:56:06.144] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter  4 Vana  87 Ia 23.7188 mA
+[10:56:06.245] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter  5 Vana  89 Ia 23.7188 mA
+[10:56:06.346] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter  6 Vana  91 Ia 25.3187 mA
+[10:56:06.446] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter  7 Vana  84 Ia 22.9188 mA
+[10:56:06.547] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter  8 Vana  91 Ia 25.3187 mA
+[10:56:06.648] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter  9 Vana  84 Ia 23.7188 mA
+[10:56:06.748] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter 10 Vana  86 Ia 23.7188 mA
+[10:56:06.849] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  0 iter 11 Vana  88 Ia 23.7188 mA
+[10:56:06.950] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 1 iter 0 Vana 78 Ia 21.3187 mA
+[10:56:07.051] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter  1 Vana  94 Ia 24.5188 mA
+[10:56:07.151] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter  2 Vana  92 Ia 24.5188 mA
+[10:56:07.252] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter  3 Vana  90 Ia 23.7188 mA
+[10:56:07.353] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter  4 Vana  92 Ia 24.5188 mA
+[10:56:07.453] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter  5 Vana  90 Ia 24.5188 mA
+[10:56:07.554] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter  6 Vana  88 Ia 23.7188 mA
+[10:56:07.655] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter  7 Vana  90 Ia 24.5188 mA
+[10:56:07.755] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter  8 Vana  88 Ia 23.7188 mA
+[10:56:07.856] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter  9 Vana  90 Ia 24.5188 mA
+[10:56:07.957] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter 10 Vana  88 Ia 23.7188 mA
+[10:56:08.058] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  1 iter 11 Vana  90 Ia 23.7188 mA
+[10:56:08.159] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 2 iter 0 Vana 78 Ia 22.9188 mA
+[10:56:08.259] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter  1 Vana  85 Ia 24.5188 mA
+[10:56:08.360] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter  2 Vana  83 Ia 24.5188 mA
+[10:56:08.461] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter  3 Vana  81 Ia 23.7188 mA
+[10:56:08.561] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter  4 Vana  83 Ia 24.5188 mA
+[10:56:08.662] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter  5 Vana  81 Ia 23.7188 mA
+[10:56:08.763] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter  6 Vana  83 Ia 25.3187 mA
+[10:56:08.864] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter  7 Vana  76 Ia 22.9188 mA
+[10:56:08.964] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter  8 Vana  83 Ia 24.5188 mA
+[10:56:09.065] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter  9 Vana  81 Ia 23.7188 mA
+[10:56:09.166] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter 10 Vana  83 Ia 24.5188 mA
+[10:56:09.266] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  2 iter 11 Vana  81 Ia 24.5188 mA
+[10:56:09.367] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 3 iter 0 Vana 78 Ia 21.3187 mA
+[10:56:09.468] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter  1 Vana  94 Ia 25.3187 mA
+[10:56:09.569] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter  2 Vana  87 Ia 24.5188 mA
+[10:56:09.670] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter  3 Vana  85 Ia 23.7188 mA
+[10:56:09.770] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter  4 Vana  87 Ia 24.5188 mA
+[10:56:09.871] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter  5 Vana  85 Ia 23.7188 mA
+[10:56:09.972] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter  6 Vana  87 Ia 24.5188 mA
+[10:56:10.073] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter  7 Vana  85 Ia 23.7188 mA
+[10:56:10.173] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter  8 Vana  87 Ia 24.5188 mA
+[10:56:10.274] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter  9 Vana  85 Ia 23.7188 mA
+[10:56:10.375] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter 10 Vana  87 Ia 24.5188 mA
+[10:56:10.475] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  3 iter 11 Vana  85 Ia 23.7188 mA
+[10:56:10.577] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 4 iter 0 Vana 78 Ia 22.1188 mA
+[10:56:10.677] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter  1 Vana  89 Ia 24.5188 mA
+[10:56:10.778] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter  2 Vana  87 Ia 24.5188 mA
+[10:56:10.879] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter  3 Vana  85 Ia 24.5188 mA
+[10:56:10.980] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter  4 Vana  83 Ia 23.7188 mA
+[10:56:11.080] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter  5 Vana  85 Ia 24.5188 mA
+[10:56:11.180] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter  6 Vana  83 Ia 23.7188 mA
+[10:56:11.281] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter  7 Vana  85 Ia 24.5188 mA
+[10:56:11.382] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter  8 Vana  83 Ia 23.7188 mA
+[10:56:11.482] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter  9 Vana  85 Ia 24.5188 mA
+[10:56:11.583] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter 10 Vana  83 Ia 23.7188 mA
+[10:56:11.683] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  4 iter 11 Vana  85 Ia 23.7188 mA
+[10:56:11.784] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 5 iter 0 Vana 78 Ia 22.9188 mA
+[10:56:11.885] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter  1 Vana  85 Ia 25.3187 mA
+[10:56:11.985] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter  2 Vana  78 Ia 22.9188 mA
+[10:56:12.086] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter  3 Vana  85 Ia 25.3187 mA
+[10:56:12.187] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter  4 Vana  78 Ia 23.7188 mA
+[10:56:12.287] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter  5 Vana  80 Ia 24.5188 mA
+[10:56:12.388] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter  6 Vana  78 Ia 22.9188 mA
+[10:56:12.488] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter  7 Vana  85 Ia 25.3187 mA
+[10:56:12.589] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter  8 Vana  78 Ia 22.9188 mA
+[10:56:12.689] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter  9 Vana  85 Ia 25.3187 mA
+[10:56:12.790] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter 10 Vana  78 Ia 22.9188 mA
+[10:56:12.890] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  5 iter 11 Vana  85 Ia 25.3187 mA
+[10:56:12.992] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 6 iter 0 Vana 78 Ia 23.7188 mA
+[10:56:13.093] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter  1 Vana  80 Ia 24.5188 mA
+[10:56:13.193] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter  2 Vana  78 Ia 23.7188 mA
+[10:56:13.294] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter  3 Vana  80 Ia 24.5188 mA
+[10:56:13.394] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter  4 Vana  78 Ia 23.7188 mA
+[10:56:13.495] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter  5 Vana  80 Ia 24.5188 mA
+[10:56:13.596] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter  6 Vana  78 Ia 23.7188 mA
+[10:56:13.697] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter  7 Vana  80 Ia 24.5188 mA
+[10:56:13.798] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter  8 Vana  78 Ia 23.7188 mA
+[10:56:13.898] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter  9 Vana  80 Ia 24.5188 mA
+[10:56:13.999] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter 10 Vana  78 Ia 23.7188 mA
+[10:56:14.100] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  6 iter 11 Vana  80 Ia 24.5188 mA
+[10:56:14.202] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 7 iter 0 Vana 78 Ia 22.9188 mA
+[10:56:14.302] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter  1 Vana  85 Ia 25.3187 mA
+[10:56:14.403] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter  2 Vana  78 Ia 22.9188 mA
+[10:56:14.504] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter  3 Vana  85 Ia 25.3187 mA
+[10:56:14.605] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter  4 Vana  78 Ia 22.9188 mA
+[10:56:14.705] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter  5 Vana  85 Ia 25.3187 mA
+[10:56:14.806] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter  6 Vana  78 Ia 22.9188 mA
+[10:56:14.907] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter  7 Vana  85 Ia 25.3187 mA
+[10:56:15.008] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter  8 Vana  78 Ia 22.9188 mA
+[10:56:15.108] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter  9 Vana  85 Ia 25.3187 mA
+[10:56:15.209] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter 10 Vana  78 Ia 22.9188 mA
+[10:56:15.310] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  7 iter 11 Vana  85 Ia 25.3187 mA
+[10:56:15.411] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 8 iter 0 Vana 78 Ia 21.3187 mA
+[10:56:15.512] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter  1 Vana  94 Ia 25.3187 mA
+[10:56:15.613] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter  2 Vana  87 Ia 24.5188 mA
+[10:56:15.713] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter  3 Vana  85 Ia 23.7188 mA
+[10:56:15.814] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter  4 Vana  87 Ia 23.7188 mA
+[10:56:15.914] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter  5 Vana  89 Ia 23.7188 mA
+[10:56:16.015] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter  6 Vana  91 Ia 24.5188 mA
+[10:56:16.116] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter  7 Vana  89 Ia 24.5188 mA
+[10:56:16.217] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter  8 Vana  87 Ia 23.7188 mA
+[10:56:16.317] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter  9 Vana  89 Ia 23.7188 mA
+[10:56:16.418] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter 10 Vana  91 Ia 24.5188 mA
+[10:56:16.519] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  8 iter 11 Vana  89 Ia 23.7188 mA
+[10:56:16.620] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 9 iter 0 Vana 78 Ia 22.9188 mA
+[10:56:16.722] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter  1 Vana  85 Ia 24.5188 mA
+[10:56:16.823] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter  2 Vana  83 Ia 24.5188 mA
+[10:56:16.923] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter  3 Vana  81 Ia 23.7188 mA
+[10:56:17.024] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter  4 Vana  83 Ia 24.5188 mA
+[10:56:17.125] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter  5 Vana  81 Ia 23.7188 mA
+[10:56:17.225] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter  6 Vana  83 Ia 24.5188 mA
+[10:56:17.326] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter  7 Vana  81 Ia 23.7188 mA
+[10:56:17.427] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter  8 Vana  83 Ia 23.7188 mA
+[10:56:17.528] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter  9 Vana  85 Ia 24.5188 mA
+[10:56:17.629] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter 10 Vana  83 Ia 24.5188 mA
+[10:56:17.729] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC  9 iter 11 Vana  81 Ia 23.7188 mA
+[10:56:17.830] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 10 iter 0 Vana 78 Ia 21.3187 mA
+[10:56:17.931] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter  1 Vana  94 Ia 25.3187 mA
+[10:56:18.032] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter  2 Vana  87 Ia 24.5188 mA
+[10:56:18.133] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter  3 Vana  85 Ia 23.7188 mA
+[10:56:18.234] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter  4 Vana  87 Ia 24.5188 mA
+[10:56:18.335] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter  5 Vana  85 Ia 23.7188 mA
+[10:56:18.435] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter  6 Vana  87 Ia 24.5188 mA
+[10:56:18.535] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter  7 Vana  85 Ia 23.7188 mA
+[10:56:18.636] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter  8 Vana  87 Ia 24.5188 mA
+[10:56:18.737] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter  9 Vana  85 Ia 23.7188 mA
+[10:56:18.837] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter 10 Vana  87 Ia 24.5188 mA
+[10:56:18.938] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 10 iter 11 Vana  85 Ia 23.7188 mA
+[10:56:19.040] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 11 iter 0 Vana 78 Ia 22.1188 mA
+[10:56:19.141] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter  1 Vana  89 Ia 24.5188 mA
+[10:56:19.241] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter  2 Vana  87 Ia 24.5188 mA
+[10:56:19.342] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter  3 Vana  85 Ia 23.7188 mA
+[10:56:19.442] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter  4 Vana  87 Ia 24.5188 mA
+[10:56:19.543] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter  5 Vana  85 Ia 23.7188 mA
+[10:56:19.643] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter  6 Vana  87 Ia 24.5188 mA
+[10:56:19.744] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter  7 Vana  85 Ia 23.7188 mA
+[10:56:19.845] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter  8 Vana  87 Ia 24.5188 mA
+[10:56:19.945] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter  9 Vana  85 Ia 23.7188 mA
+[10:56:20.046] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter 10 Vana  87 Ia 24.5188 mA
+[10:56:20.147] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 11 iter 11 Vana  85 Ia 23.7188 mA
+[10:56:20.248] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 12 iter 0 Vana 78 Ia 22.1188 mA
+[10:56:20.349] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter  1 Vana  89 Ia 23.7188 mA
+[10:56:20.449] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter  2 Vana  91 Ia 24.5188 mA
+[10:56:20.550] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter  3 Vana  89 Ia 24.5188 mA
+[10:56:20.650] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter  4 Vana  87 Ia 24.5188 mA
+[10:56:20.751] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter  5 Vana  85 Ia 23.7188 mA
+[10:56:20.852] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter  6 Vana  87 Ia 23.7188 mA
+[10:56:20.953] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter  7 Vana  89 Ia 23.7188 mA
+[10:56:21.053] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter  8 Vana  91 Ia 24.5188 mA
+[10:56:21.154] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter  9 Vana  89 Ia 24.5188 mA
+[10:56:21.254] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter 10 Vana  87 Ia 24.5188 mA
+[10:56:21.355] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 12 iter 11 Vana  85 Ia 23.7188 mA
+[10:56:21.456] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 13 iter 0 Vana 78 Ia 22.9188 mA
+[10:56:21.557] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter  1 Vana  85 Ia 25.3187 mA
+[10:56:21.657] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter  2 Vana  78 Ia 22.9188 mA
+[10:56:21.758] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter  3 Vana  85 Ia 26.1187 mA
+[10:56:21.858] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter  4 Vana  73 Ia 22.1188 mA
+[10:56:21.959] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter  5 Vana  84 Ia 25.3187 mA
+[10:56:22.060] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter  6 Vana  77 Ia 22.9188 mA
+[10:56:22.161] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter  7 Vana  84 Ia 25.3187 mA
+[10:56:22.262] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter  8 Vana  77 Ia 22.9188 mA
+[10:56:22.363] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter  9 Vana  84 Ia 25.3187 mA
+[10:56:22.463] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter 10 Vana  77 Ia 22.9188 mA
+[10:56:22.564] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 13 iter 11 Vana  84 Ia 25.3187 mA
+[10:56:22.665] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 14 iter 0 Vana 78 Ia 22.1188 mA
+[10:56:22.766] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter  1 Vana  89 Ia 24.5188 mA
+[10:56:22.867] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter  2 Vana  87 Ia 24.5188 mA
+[10:56:22.968] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter  3 Vana  85 Ia 23.7188 mA
+[10:56:23.069] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter  4 Vana  87 Ia 24.5188 mA
+[10:56:23.170] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter  5 Vana  85 Ia 23.7188 mA
+[10:56:23.271] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter  6 Vana  87 Ia 24.5188 mA
+[10:56:23.371] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter  7 Vana  85 Ia 23.7188 mA
+[10:56:23.472] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter  8 Vana  87 Ia 24.5188 mA
+[10:56:23.573] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter  9 Vana  85 Ia 23.7188 mA
+[10:56:23.673] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter 10 Vana  87 Ia 24.5188 mA
+[10:56:23.774] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 14 iter 11 Vana  85 Ia 23.7188 mA
+[10:56:23.875] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L302> ROC 15 iter 0 Vana 78 Ia 22.9188 mA
+[10:56:23.976] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter  1 Vana  85 Ia 25.3187 mA
+[10:56:24.076] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter  2 Vana  78 Ia 22.9188 mA
+[10:56:24.177] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter  3 Vana  85 Ia 25.3187 mA
+[10:56:24.278] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter  4 Vana  78 Ia 22.9188 mA
+[10:56:24.379] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter  5 Vana  85 Ia 25.3187 mA
+[10:56:24.479] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter  6 Vana  78 Ia 22.9188 mA
+[10:56:24.580] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter  7 Vana  85 Ia 25.3187 mA
+[10:56:24.681] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter  8 Vana  78 Ia 22.9188 mA
+[10:56:24.781] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter  9 Vana  85 Ia 25.3187 mA
+[10:56:24.882] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter 10 Vana  78 Ia 22.9188 mA
+[10:56:24.983] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L334> ROC 15 iter 11 Vana  85 Ia 25.3187 mA
+[10:56:25.016] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC  0 Vana  88
+[10:56:25.016] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC  1 Vana  90
+[10:56:25.016] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC  2 Vana  81
+[10:56:25.016] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC  3 Vana  85
+[10:56:25.016] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC  4 Vana  85
+[10:56:25.016] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC  5 Vana  85
+[10:56:25.016] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC  6 Vana  80
+[10:56:25.016] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC  7 Vana  85
+[10:56:25.017] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC  8 Vana  89
+[10:56:25.017] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC  9 Vana  81
+[10:56:25.017] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC 10 Vana  85
+[10:56:25.017] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC 11 Vana  85
+[10:56:25.017] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC 12 Vana  85
+[10:56:25.017] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC 13 Vana  84
+[10:56:25.017] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC 14 Vana  85
+[10:56:25.017] <TB0>    DEBUG: <PixTestPretest.cc/setVana:L365> ROC 15 Vana  85
+[10:56:25.120] <TB0>     INFO: PixTestPretest::setVana() done, Module Ia 393.1 mA = 24.5688 mA/ROC
+[10:56:25.121] <TB0>     INFO:    ----------------------------------------------------------------------
+[10:56:25.121] <TB0>     INFO:    PixTestPretest::findTiming() 
+[10:56:25.121] <TB0>     INFO:    ----------------------------------------------------------------------
+[10:56:25.121] <TB0>     INFO: PixTestCmd::init()
+[10:56:25.121] <TB0>    DEBUG: <PixTestCmd.cc/runCommand:L3654> running command: timing
+[10:56:25.715] <TB0>  WARNING: Not unmasking DUT, not setting Calibrate bits!
+[10:58:02.190] <TB0>    DEBUG: <PixTestCmd.cc/~PixTestCmd:L77> PixTestCmd dtor
+[10:58:02.217] <TB0>     INFO: TBM phases:  160MHz: 7, 400MHz: 2, TBM delays: ROC(0/1):4, header/trailer: 1, token: 1
+[10:58:02.217] <TB0>     INFO: (success/tries = 100/100), width = 5
+[10:58:02.217] <TB0>    DEBUG: <PixTest.cc/tbmSet:L2411> changing tbm reg basee[0] from 0xe8 to 0xe8
+[10:58:02.217] <TB0>    DEBUG: <PixTest.cc/tbmSet:L2411> changing tbm reg basea[0] from 0xe4 to 0xe4
+[10:58:02.217] <TB0>    DEBUG: <PixTest.cc/tbmSet:L2411> changing tbm reg basea[1] from 0xe4 to 0xe4
+[10:58:02.217] <TB0>    DEBUG: <PixTest.cc/tbmSet:L2411> changing tbm reg base4[0] from 0x80 to 0x80
+[10:58:02.217] <TB0>    DEBUG: <PixTest.cc/tbmSet:L2411> changing tbm reg base4[1] from 0x80 to 0x80
+[10:58:02.220] <TB0>     INFO:    ----------------------------------------------------------------------
+[10:58:02.220] <TB0>     INFO:    PixTestPretest::findWorkingPixel()
+[10:58:02.220] <TB0>     INFO:    ----------------------------------------------------------------------
+[10:58:02.359] <TB0>     INFO: Expecting 231680 events.
+[10:58:07.042] <TB0>    ERROR: <datapipe.cc/CheckEventValidity:L484> Channel 0 Number of ROCs (1) != Token Chain Length (8)
+[10:58:07.044] <TB0>    ERROR: <datapipe.cc/CheckEventID:L457> Channel 0 Event ID mismatch:  local ID (21) !=  TBM ID (2)
+[10:58:09.568] <TB0>     INFO: 231680 events read in total (6494ms).
+[10:58:09.574] <TB0>     INFO: Test took 7351ms.
+[10:58:09.909] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C0 OK, with vthrComp = 91 and Delta(CalDel) = 63
+[10:58:09.911] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C1 OK, with vthrComp = 96 and Delta(CalDel) = 58
+[10:58:09.913] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C2 OK, with vthrComp = 107 and Delta(CalDel) = 58
+[10:58:09.915] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C3 OK, with vthrComp = 93 and Delta(CalDel) = 59
+[10:58:09.918] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C4 OK, with vthrComp = 102 and Delta(CalDel) = 58
+[10:58:09.920] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C5 OK, with vthrComp = 117 and Delta(CalDel) = 62
+[10:58:09.922] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C6 OK, with vthrComp = 123 and Delta(CalDel) = 56
+[10:58:09.924] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C7 OK, with vthrComp = 122 and Delta(CalDel) = 62
+[10:58:09.926] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C8 OK, with vthrComp = 92 and Delta(CalDel) = 60
+[10:58:09.929] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C9 OK, with vthrComp = 99 and Delta(CalDel) = 64
+[10:58:09.931] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C10 OK, with vthrComp = 90 and Delta(CalDel) = 59
+[10:58:09.933] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C11 OK, with vthrComp = 109 and Delta(CalDel) = 61
+[10:58:09.935] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C12 OK, with vthrComp = 92 and Delta(CalDel) = 62
+[10:58:09.938] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C13 OK, with vthrComp = 112 and Delta(CalDel) = 59
+[10:58:09.940] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C14 OK, with vthrComp = 99 and Delta(CalDel) = 57
+[10:58:09.942] <TB0>    DEBUG: <PixTestPretest.cc/findWorkingPixel:L1168> fwp_c12_r22_C15 OK, with vthrComp = 112 and Delta(CalDel) = 59
+[10:58:09.962] <TB0>     INFO: Found working pixel in all ROCs: col/row = 12/22
+[10:58:09.993] <TB0>     INFO:    ----------------------------------------------------------------------
+[10:58:09.993] <TB0>     INFO:    PixTestPretest::setVthrCompCalDel()
+[10:58:09.993] <TB0>     INFO:    ----------------------------------------------------------------------
+[10:58:10.129] <TB0>     INFO: Expecting 231680 events.
+[10:58:17.351] <TB0>     INFO: 231680 events read in total (6506ms).
+[10:58:17.357] <TB0>     INFO: Test took 7360ms.
+[10:58:17.380] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 139 +/- 30.5
+[10:58:17.699] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 108 +/- 28.5
+[10:58:17.702] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 116 +/- 28
+[10:58:17.704] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 115 +/- 29
+[10:58:17.706] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 114 +/- 29
+[10:58:17.708] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 125 +/- 30.5
+[10:58:17.711] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 111 +/- 29.5
+[10:58:17.713] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 133 +/- 30
+[10:58:17.715] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 134 +/- 29.5
+[10:58:17.717] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 143 +/- 31.5
+[10:58:17.720] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 124 +/- 30
+[10:58:17.722] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 125 +/- 31
+[10:58:17.724] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 131 +/- 30.5
+[10:58:17.726] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 121 +/- 28.5
+[10:58:17.728] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 110 +/- 30
+[10:58:17.731] <TB0>    DEBUG: <PixTestPretest.cc/setVthrCompCalDel:L690> CalDel: 118 +/- 28
+[10:58:17.763] <TB0>     INFO: PixTestPretest::setVthrCompCalDel() done
+[10:58:17.763] <TB0>     INFO: CalDel:      139   108   116   115   114   125   111   133   134   143   124   125   131   121   110   118
+[10:58:17.763] <TB0>     INFO: VthrComp:     51    51    51    51    51    52    51    51    51    51    51    51    51    51    51    51
+[10:58:17.766] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C0.dat
+[10:58:17.766] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C1.dat
+[10:58:17.766] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C2.dat
+[10:58:17.767] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C3.dat
+[10:58:17.767] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C4.dat
+[10:58:17.767] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C5.dat
+[10:58:17.767] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C6.dat
+[10:58:17.767] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C7.dat
+[10:58:17.767] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C8.dat
+[10:58:17.767] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C9.dat
+[10:58:17.767] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C10.dat
+[10:58:17.768] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C11.dat
+[10:58:17.768] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C12.dat
+[10:58:17.768] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C13.dat
+[10:58:17.768] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C14.dat
+[10:58:17.768] <TB0>     INFO: write dac parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//dacParameters_C15.dat
+[10:58:17.768] <TB0>     INFO: write tbm parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//tbmParameters_C0a.dat
+[10:58:17.768] <TB0>     INFO: write tbm parameters into /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_10h53m_1447260817//000_Pretest_p17//tbmParameters_C0b.dat
+[10:58:17.768] <TB0>     INFO: PixTestPretest::doTest() done, duration: 149 seconds
+[10:58:17.768] <TB0>    DEBUG: <PixTestPretest.cc/~PixTestPretest:L136> PixTestPretest dtor
+[10:58:17.828] <TB0>     INFO: enter test to run
+[10:58:17.828] <TB0>     INFO:   test:  no parameter change
+[10:58:17.828] <TB0>    DEBUG: <PixMonitor.cc/dumpSummaries:L34> PixMonitor::dumpSummaries
+[10:58:18.155] <TB0>    QUIET: Connection to board 24 closed.
+[10:58:18.157] <TB0>     INFO: pXar: this is the end, my friend
+[10:58:18.157] <TB0>    DEBUG: <PixSetup.cc/~PixSetup:L68> PixSetup free fPxarMemory

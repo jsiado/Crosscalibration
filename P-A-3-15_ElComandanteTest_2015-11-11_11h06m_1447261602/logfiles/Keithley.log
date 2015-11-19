@@ -1,0 +1,20 @@
+#
+#--------LOG from Wed 11 Nov 2015 at 11h:06m:42s ---------
+#
+SerialPort: /dev/ttyUSB1
+:IV:TESTDIR! /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_11h06m_1447261602//001_IV_p17/
+:PROG:IV:START! -0.0
+:PROG:IV:STOP! -600.0
+:PROG:IV:STEP! 10.0
+:PROG:IV:DELAY! 3.0
+:MSG! Do Sweep from -0.00 V to -600.00 in steps of 10.00V with a delay of 3
+	TestDirectory is "/home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_11h06m_1447261602//001_IV_p17/"
+
+TestDirectory is: /home/silpix5/allTestResults/P-A-3-15_ElComandanteTest_2015-11-11_11h06m_1447261602//001_IV_p17/
+Max Sweep Tries:  1
+exit while loop
+Done with recording IV Curve
+Results End, /keithley
+Sweep done
+re-initialize Keithley
+exiting...
